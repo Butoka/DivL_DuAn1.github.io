@@ -1,0 +1,403 @@
+
+.row>.card {
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+.text-color{
+    color:white;
+}
+.menu-con{
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+}
+/* .content2{
+    width: 100%;
+} */
+.menu-con ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-variant: small-caps;
+}
+.menu-con .card-header strong{
+    font-size: 16px;
+    color:white;
+}
+.menu-con .card-header{
+   
+    background-color: rgba(255, 123, 0, 0.767);
+}
+.menu-con .card img{
+    border: 2px solid rgba(255, 123, 0, 0.767);
+}
+.no-border{
+    text-decoration: none;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+/* article{
+    background-color: orangered;
+} */
+.nav-item .nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.219);
+}
+section .row .col-md-3 hr{
+    width: 60px; background-color: rgb(255, 157, 0); height: 2px
+}   
+section .row .col-md-4 hr{
+    width: 60px; background-color: rgb(255, 68, 0); height: 2px
+}
+section .row .col-md-2 hr{
+    width: 60px; background-color: rgb(255, 68, 0); height: 2px
+}
+.img-design h1{
+    box-shadow: 2px 2px 5px solid rgb(119, 119, 119);
+    background-color: rgba(15, 15, 15, 0.74);
+    border-bottom: 2px solid  rgba(255, 255, 255, 0.801);
+}
+/*back ground color*/
+.bg-test{
+    background-color: rgba(0, 0, 0, 0.883);
+}
+.bg-test3{
+    background-color: rgba(122, 122, 122, 0.733);
+}
+.bg-ograne{
+    background: linear-gradient(to right,blue,rgb(44, 136, 255),rgb(2, 12, 156));
+}
+.bg-ograne2{
+    background:rgba(255, 68, 0, 0.849);
+   
+}
+.bg-o3{
+    background: linear-gradient(to right,blue,rgb(163, 83, 255));
+}
+.pagination .page-item .page-link{
+    color: orangered;
+}
+.pagination .page-item .page-link:focus{
+    background-color: white;
+    box-shadow: orange 0px 0px 0px 3px;
+}
+.pagination .active{
+    background-color: orangered;
+    color:white
+}
+.pagination .page-item .active:focus{
+    background-color: orangered;
+    color: orangered;
+}
+
+
+.list-group {
+    font-size: 14px;
+    font-weight: bold;
+}
+.list-group img{
+    width: 40px;
+}
+/* Danh muc mon hoc */
+.poly-cart{
+    margin-top: 5px;
+}
+.poly-cart ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-variant: small-caps;
+}
+.poly-cart .card-header strong{
+    font-variant: small-caps;
+    font-size: larger;
+    text-shadow: 0 0 2px darkgray;
+}
+.poly-prod{
+    text-align: center;
+    padding: 5px;
+}
+.poly-prod:hover{
+    color: orange;
+    padding: 2px;
+}
+.poly-prod .card{
+    /* border: 3px solid orange; */
+    box-shadow: 2px 2px 3px black;
+}
+.poly-prod .card:hover{
+    border: 3px solid #ffc400c7;
+}
+.poly-prod .card-header{
+    border: none;
+    background: none;
+}
+.poly-prod .card-header h3{
+    font-size: 18px;
+}
+.poly-prod .card-header .card-title{
+    font-size: 19px;
+}
+.poly-prod .card-header .card-title a{
+    text-decoration: none;
+    color: black;
+    
+}
+.poly-prod .card-header .card-title a:hover{
+    color:blue;
+ 
+}
+.poly-prod .card-body img{
+    height: 150px;
+    max-width: 95%;
+}
+.poly-prod .card-footer{
+    border: none;
+    background: none;
+}
+/* .poly-prod .card-body img:hover{
+  width: 200px;
+ height: 200px;
+} */
+.poly-prod .card-footer button{
+    width: 100px;
+    border-radius: 20px;
+}
+.poly-prod .card-footer a{
+    width: 100px;
+    border-radius: 20px;
+}
+.btn-dieuhuong button{
+    height: 40px;
+}
+.back-home{
+    position: absolute;
+    top:200px;
+    right: 100px;
+}
+/*Thanh tìm kiếm*/
+.bg-test1{
+   height: 200px;
+   background:linear-gradient(to left, rgba(32, 32, 32, 0.842),rgb(26, 26, 26),rgba(0, 0, 0, 0.829));
+}
+.bg-test2{
+   background:linear-gradient(to left, rgba(32, 32, 32, 0.842),rgb(26, 26, 26),rgba(0, 0, 0, 0.829));
+}
+.btn-gray{
+    background-color: rgb(255, 94, 0);
+}
+/*danh sách lựa chọn*/
+
+/* cau doi*/
+
+
+/* Môn học */
+#list-test h2{
+   font-family: Arial, Helvetica, sans-serif;
+}
+/*Nhom*/
+.icon-sp{
+    text-decoration: none;
+}
+.gt-1 .card{
+    height: 300px;
+}
+.gt-2 .card{
+    height: 320px;
+    border-radius: 15px;
+}
+/* 000 tron tron */
+@keyframes pulse {
+
+    from,
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+.cta-lptech {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 999;
+    position: fixed;
+    bottom: 36px;
+    right: 10px;
+    width: 50px;
+}
+
+.cta-lptech li {
+    width: 50px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.cta-lptech li a {
+    height: 50px;
+    line-height: 50px;
+    background-color: #FFC400;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.cta-lptech li a.call {
+    background-color: orangered;
+}
+
+.cta-lptech li a i {
+    font-size: 27px;
+    color: #fff;
+    padding: 12px;
+}
+
+.cta-lptech li a,
+.cta-lptech li a img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.cta-lptech li,
+.cta-lptech li a {
+    display: inline-block;
+}
+
+.cta-lptech li a.zalo {
+    background-color: #0180c7;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.mypage-alo-ph-circle,
+.mypage-alo-phone:hover .mypage-alo-ph-circle {
+    border-color: #ffd53b !important;
+}
+
+.mypage-alo-ph-circle-fill,
+.mypage-alo-ph-img-circle,
+.mypage-alo-phone:hover .mypage-alo-ph-circle-fill,
+.mypage-alo-phone:hover .mypage-alo-ph-img-circle {
+    background-color: rgba(244, 68, 56, 0.5);
+}
+
+.mypage-alo-ph-circle-fill {
+    width: 60px;
+    height: 60px;
+    top: 56px;
+    left: -5px;
+    position: absolute;
+    -ms-transition: all .2s ease-in-out;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    opacity: .4 !important;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+.mypage-alo-ph-circle {
+    width: 80px;
+    height: 80px;
+    top: 45px;
+    left: -16px;
+    position: absolute;
+    background-color: #774d4d00;
+    border-radius: 100%;
+    border: 2px solid rgba(30, 30, 30, .4);
+    opacity: .1;
+    opacity: .5;
+}
+/*mon hoc - chitiet*/
+.chitiet-monhoc{
+    background:linear-gradient(to right,rgba(255, 166, 0, 0.87),rgba(255, 68, 0, 0.794),rgba(255, 72, 0, 0.801));
+}
+.chitiet-monhoc ul{
+    list-style: none;
+}
+.chitiet-monhoc .col-5{
+    margin-top: 35px;
+    padding: 20px;
+    background:linear-gradient(crimson,rgba(255, 0, 0, 0.397)) ;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.chitiet-monhoc .col-5 h3{
+   color: rgb(255, 255, 255);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight:bold ;       
+
+}
+.chitiet-monhoc .col-5 h2{
+   color: rgba(255, 255, 255, 0.829);
+   font-family: Arial, Helvetica, sans-serif;
+}
+.chitiet-monhoc .col-12 a:hover{
+    color: white;
+    background-color: rgb(32, 32, 255);
+}
+.breadcrumb-item a{
+    color: white;
+    text-decoration: none;    
+}
+.breadcrumb-item a:hover{
+    color: blue;
+    text-shadow:none;
+    text-decoration: underline;    
+}
+
+.breadcrumb .active{
+    color: rgb(255, 180, 42);
+   
+}
+.breadcrumb{
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+

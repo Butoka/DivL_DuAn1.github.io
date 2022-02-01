@@ -1,0 +1,70 @@
+body {
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 100vh;
+}
+
+#content {
+    -webkit-animation: animatezoom-1 3s;
+    animation: animatezoom-1 4s;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    width: 45%;
+    background: #f6f5f7;
+    margin: auto;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+    padding: 4%;
+    padding-bottom: 0px;
+    position: relative;
+    border-radius: 10px;
+    opacity: 0.89;
+}
+
+#datepicker>span:hover {
+    cursor: pointer;
+}
+
+.support {
+    padding-top: 20px;
+}
+
+@-webkit-keyframes animatezoom-1 {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom-1 {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@keyframes animatezoom-2 {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.p-viewer {
+    z-index: 9999;
+    position: absolute;
+    left: 560px;
+    margin-top: -60px;
+}
+
+.fa-eye {
+    color: #000;
+}
